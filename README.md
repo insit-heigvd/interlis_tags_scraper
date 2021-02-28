@@ -11,7 +11,9 @@ docker-compose version 1.27.4
 
 1. Clone this repo
 ```
-git clone git@github.com:insit-heigvd/interlis_tags_scraper.git && cd /interlis_tags_scraper && mkdir output
+git clone git@github.com:insit-heigvd/interlis_tags_scraper.git \
+  && cd /interlis_tags_scraper \
+  && mkdir output
 ```
 
 2. Start and log the app
