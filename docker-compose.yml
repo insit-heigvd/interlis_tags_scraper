@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    tty: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    volumes:
+      - ./output:/home/scrapy/output
+    entrypoint: ./entrypoint.sh
+    
